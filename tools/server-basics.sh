@@ -23,5 +23,12 @@ echo "Clone Katana #################################.............."
 git clone https://github.com/projectdiscovery/katana.git
 echo "Clone Katana ###############################################"
 
+cd Ultra-DDos/
+apt install python3 -y
+
+apt install python3-pip -y
+
+pip3 install requests
+
 ls -a
 
