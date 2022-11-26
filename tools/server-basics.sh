@@ -1,9 +1,10 @@
 #!/bin/sh
 echo "Run me as root"
 
-echo "Python3 #################################.............."
+echo "Python3 & pipe #################################.............."
 apt install python3 -y
-echo "Python3 ###############################################"
+apt install python3-pip -y
+echo "Python3 & pipe ###############################################"
 
 echo "Updating #################################.............."
 
@@ -28,8 +29,6 @@ git clone https://github.com/projectdiscovery/katana.git
 echo "Clone Katana ###############################################"
 
 cd Ultra-DDos/
-
-apt install python3-pip -y
 
 pip3 install requests
 
