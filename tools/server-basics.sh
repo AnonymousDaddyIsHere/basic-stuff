@@ -32,14 +32,16 @@ cd Ultra-DDos/
 
 pip3 install requests
 
-ls -a
-
 echo "Burp.Suite.Professional.2022.8.5 #################################.............."
-wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.8.5.rar?1670446993
+wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.8.5.rar
 echo "Burp.Suite.Professional.2022.8.5 ###############################################"
 
 echo "Burp.Suite.Professional.2022.11.4 #################################.............."
-wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.11.4.rar?1670446993
+wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.11.4.rar
 echo "Burp.Suite.Professional.2022.11.4 ###############################################"
 
 ls -a
+
+unrar x -p{soft98.ir} Burp.Suite.Professional.2022.8.5.rar
+
+unrar x -p{soft98.ir} Burp.Suite.Professional.2022.11.4.rar
