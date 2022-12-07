@@ -41,3 +41,5 @@ echo "Burp.Suite.Professional.2022.8.5 #########################################
 echo "Burp.Suite.Professional.2022.11.4 #################################.............."
 wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.11.4.rar?1670446993
 echo "Burp.Suite.Professional.2022.11.4 ###############################################"
+
+ls -a
