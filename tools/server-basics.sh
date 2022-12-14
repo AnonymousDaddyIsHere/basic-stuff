@@ -45,3 +45,14 @@ ls -a
 unrar x -p{soft98.ir} Burp.Suite.Professional.2022.8.5.rar
 
 unrar x -p{soft98.ir} Burp.Suite.Professional.2022.11.4.rar
+
+
+echo "AngelSecurityTeam / RevoltShing #################################.............."
+git clone https://github.com/AngelSecurityTeam/RevoltShing
+echo "AngelSecurityTeam / RevoltShing ###############################################"
+
+cd RevoltShing
+
+chmod -x install.sh
+
+bash install.sh
