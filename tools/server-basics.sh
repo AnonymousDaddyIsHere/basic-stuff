@@ -55,4 +55,6 @@ cd RevoltShing
 
 chmod -x install.sh
 
+pip install wget
+
 bash install.sh
