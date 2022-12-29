@@ -32,20 +32,17 @@ cd Ultra-DDos/
 
 pip3 install requests
 
+echo "MatrixTM/MHDDoS #################################.............."
+git clone https://github.com/MatrixTM/MHDDoS.git
+echo "MatrixTM/MHDDoS ###############################################"
+
 echo "Burp.Suite.Professional.2022.8.5 #################################.............."
 wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.8.5.rar
 echo "Burp.Suite.Professional.2022.8.5 ###############################################"
 
-echo "Burp.Suite.Professional.2022.11.4 #################################.............."
-wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.11.4.rar
-echo "Burp.Suite.Professional.2022.11.4 ###############################################"
-
 ls -a
 
 unrar x -p{soft98.ir} Burp.Suite.Professional.2022.8.5.rar
-
-unrar x -p{soft98.ir} Burp.Suite.Professional.2022.11.4.rar
-
 
 echo "AngelSecurityTeam / RevoltShing #################################.............."
 git clone https://github.com/AngelSecurityTeam/RevoltShing
