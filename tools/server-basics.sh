@@ -31,6 +31,7 @@ echo "Clone Katana ###############################################"
 cd Ultra-DDos/
 
 pip3 install requests
+pip install --upgrade pip
 
 echo "MatrixTM/MHDDoS #################################.............."
 git clone https://github.com/MatrixTM/MHDDoS.git
