@@ -65,9 +65,7 @@ echo "AllHackingTools ###############################################"
 
 echo "MatrixTM/MHDDoS #################################.............."
 git clone https://github.com/MatrixTM/MHDDoS.git
+cd MHDDoS
+pip install -r requirements.txt
 echo "MatrixTM/MHDDoS ###############################################"
-
-# echo "Burp.Suite.Professional.2022.8.5 #################################.............."
-# wget https://dl2.soft98.ir/soft/b/Burp.Suite.Professional.2022.8.5.rar
-# unrar x -p{soft98.ir} Burp.Suite.Professional.2022.8.5.rar
-# echo "Burp.Suite.Professional.2022.8.5 ###############################################"
+echo "Done. Good luck"
