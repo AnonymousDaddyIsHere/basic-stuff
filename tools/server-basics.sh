@@ -140,5 +140,16 @@ echo "MatrixTM/MHDDoS #################################.............."
 git clone https://github.com/MatrixTM/MHDDoS.git
 cd MHDDoS
 pip install -r requirements.txt
+cd ..
 echo "MatrixTM/MHDDoS ###############################################"
+
+echo "moki #################################.............."
+mkdir moki
+cd moki
+wget https://goo.gl/Sn7Cwi -O setup.sh
+sh setup.sh --help
+sh setup.sh --all
+cd ..
+echo "moki ###############################################"
+
 echo "Done. Good luck"
