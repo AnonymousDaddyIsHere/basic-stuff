@@ -152,4 +152,16 @@ sh setup.sh --all
 cd ..
 echo "moki ###############################################"
 
+echo "grafov/hulk #################################.............."
+git clone https://github.com/grafov/hulk.git
+echo "grafov/hulk ###############################################"
+
+echo "R3DHULK/HULK #################################.............."
+git clone https://github.com/R3DHULK/HULK.git
+echo "R3DHULK/HULK ###############################################"
+
+echo "HulkV3 #################################.............."
+git clone https://github.com/Hyperclaw79/HULK-v3.git
+echo "HulkV3 ###############################################"
+
 echo "Done. Good luck"
