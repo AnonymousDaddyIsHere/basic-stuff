@@ -1,6 +1,6 @@
 $ git clone https://github.com/AnonymousDaddyIsHere/basic-stuff.git
 
-$ cd basic-stuff
+$ cd basic-stuff/tools
 
 # sudo sh ./server-basics.sh
 
