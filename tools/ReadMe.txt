@@ -1,4 +1,4 @@
-$ https://github.com/AnonymousDaddyIsHere/basic-stuff.git
+$ git clone https://github.com/AnonymousDaddyIsHere/basic-stuff.git
 
 $ cd basic-stuff
 
