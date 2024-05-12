@@ -25,7 +25,7 @@ echo "Upgraded ###############################################"
 
 echo "Clone MHDDos #################################.............."
 apt -y update && apt -y install curl wget libcurl4 libssl-dev python3 python3-pip make cmake automake autoconf m4 build-essential git && git clone https://github.com/MatrixTM/MHDDoS.git && cd MH* && pip3 install -r requirements.txt --ignore-install
-cd ..
+cd ./..
 echo "Clone MHDDos ###############################################"
 
 echo "Clone Ultra-DDos #################################.............."
@@ -53,25 +53,25 @@ cd RevoltShing
 chmod -x install.sh
 pip3 install wget
 bash install.sh
-cd ..
+cd ./..
 echo "AngelSecurityTeam / RevoltShing ###############################################"
 
-echo "Floodattack #################################.............."
-git clone https://github.com/IncredibleHacker/Fl00d-Attacker.git
-cd Fl00d-Attacker
-chmod +x floodattack.sh
-bash floodattack.sh
-cd ..
-echo "Floodattack ###############################################"
+# echo "Floodattack #################################.............."
+# git clone https://github.com/IncredibleHacker/Fl00d-Attacker.git
+# cd Fl00d-Attacker
+# chmod +x floodattack.sh
+# bash floodattack.sh
+# cd ./..
+# echo "Floodattack ###############################################"
 
 echo "Py-Ddoser #################################.............."
 git clone https://github.com/mishakorzik/py-ddoser.git
-cd  py-ddoser
+cd py-ddoser
 pip3 install requests
 pip3 install fake_headers
 pip3 install colorama
 pip3 install click
-cd ..
+cd ./..
 echo "py-Ddoser ###############################################"
 
 echo "HawkScan #################################.............."
@@ -134,7 +134,7 @@ echo "
 
     //With two excludes type
      python hawkscan.py -u https://www.exemple.com/ --exclude 1337b,403" >> ReadMe.txt
-cd ..
+cd ./..
 echo "HawkScan ###############################################"
 
 echo "AllHackingTools #################################.............."
@@ -145,7 +145,7 @@ echo "MatrixTM/MHDDoS #################################.............."
 git clone https://github.com/MatrixTM/MHDDoS.git
 cd MHDDoS
 pip install -r requirements.txt
-cd ..
+cd ./..
 echo "MatrixTM/MHDDoS ###############################################"
 
 echo "moki #################################.............."
@@ -154,7 +154,7 @@ cd moki
 wget https://goo.gl/Sn7Cwi -O setup.sh
 sh setup.sh --help
 sh setup.sh --all
-cd ..
+cd ./..
 echo "moki ###############################################"
 
 echo "grafov/hulk #################################.............."
